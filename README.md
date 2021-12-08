@@ -1,2 +1,2 @@
 # Pygame
-All my Pygame Projects, every test and try.
+All my small pygame projects, my tests and attempts. 
