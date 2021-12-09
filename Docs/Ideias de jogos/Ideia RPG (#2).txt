@@ -1,0 +1,178 @@
+Realm concept 
+bronze realm to diamond realm
+realm of Novice (1-9) (first novice, second novice...)
+those realms are human-reachable realms, training normally you can get to realm of legends and became a legend among your village. 
+In order to further progress, you need special itens that unlock your power, you can get those itens through various ways, but none of them are 100% chance.
+The following is the level/realm table
+level ----- realm
+1 - 10 ----- Bronze
+11 - 20 ---- Silver
+21 - 30 ---- Gold
+31 - 40 ---- Platinum
+41 - 50 ---- Diamond
+51 - 60 --- Champion 1
+61 - 70 --- Champion 2
+71 - 80 --- Champion 3
+81 - 90 --- Champion 4
+91 - 100 -- Champion 5
+101 - 110 - Champion 6
+111 - 120 - Champion 7
+121 - 130 - Champion 8
+131 - 150 - Champion 9
+151 - 200 - Legend
+
+200 is te cap, can only go further with special item from this point. Following the lvl 200 you can only level up through your profession, killing mobs or players don't 
+grant you XP anymore.
+along with the next realms you can choose professions to follow and develop. You can became a master in some profession or learn a little of everything. 
+The realms you get after 200 are:
+201 - 300 - Master realm 1 (1 - 100)
+301 - 400 - Master realm 2 (101 - 200)
+401 - 500 - Master realm 3 (201 - 300)
+501 - 600 - Sage realm 1 (301 - 400)
+601 - 700 - Sage realm 2 (401 - 500)
+701 - 800 - Sage realm 3 (501 - 600)
+801 - 900 - Soul Ascetic realm 1 (601 - 700)
+901 - 999 - Soul Ascetic realm 2 (701 - 799)
+1000 - Doyen (aka elderly member) (800)
+
+You can reach lvl 1000 after you are a Skill crafter on at least one profession (lvl800 on a profession).
+
+Profession system 
+You have the following professions to choose:
+Melee Combatant
+Swordmanship
+Sorcery
+Archery
+Refinery
+Smithy
+Priesthood
+Cookery
+
+each one will have it's unique set of habilities. For understanding porpouse:
+Combatant - bare hand fights
+Swordman - Sword fights
+Sorcerer - Skills fights
+Archer - Bow and arrow fights
+Refiner - Creation of potions and pellets through refining resources, creation of gems for various uses
+Smith - Creation of anything through drawnings using gems. More often associate to forging weapons
+Priest/Priestess - Healing and boosting others
+Cooker - Prepare foods
+
+Abilities and titles are ways to show your advance in your chosen class. For each level within a class you obtain, you get 1 learnt ability point.
+The masteries and advanced skills use the following table:
+1 - 99 - Apprentice *name of class*
+100 - 249 - Initiate *name of class*
+250 - 499 - Second Master *name of class*
+500 - 699 - Master *name of class*
+700 - 799 - Professor *name of class*
+800 - Skill Crafter *name of class*
+
+you can use your learnt ability point for special itens for you class, like special and powerful gloves, swords, books, bows or arrows, empty potions, gems, staffs, cuisine itens.
+you can trade those points in the Professor of your class, he will always be in the academy. 
+In order to get to Skill Crafter, you need to prove your worth by doing the following:
+for fight professions :
+Kill 10 bosses and bring back their heads (if you kill a boss but don't get the head, it doesn't count)
+for creation professions:
+Creat 10 outstanding/perfect/exceptional(exactly name not chosen yet) items 
+for Priesthood:
+Save 10 lives from certain death.
+
+
+Gems concept
+
+can be used for various crafting porpouses and even can make the forge better. Useful itens for everyone.
+Gems add effects for fighters professions like fire damage, water damage... Gives more chance for better quality items created from creation professions
+And give more healing Power to Priests
+
+Crafting talisman concept (Forgery and refinery are able to do it)
+Six categories - basic, common, middle, high, rare and perfect
+Three types - Protection (skills like golden armor, heal, fast movement), traps (skills like energy cage, sinking feet, prevent move) and offense (like firewall, 
+earthquake, whirlwind)
+Talisman can be crafted after the Master rank and asking for a tutor from the academy.
+You need to talk to the professor from forgery or refinery in order to have permission to ask for a tutor.
+Any Master or greater that already finished the talisman training can be a tutor, but the better the tutor, the better you need to be so they will have you as a aprentice.
+
+
+Definitions of the academy -
+The place where you can train and become better, after you finish the "main" First Quest, you need to be accepted in the academy to keep going on the story.
+Your acceptance depends If you did one of the following things:
+1. Get the primary weapon (sword, staff, bow or deffensive weapons [yet to decide])
+2. Look for a way to develop yourself when you reach the kingdom for the first time.
+
+If you did one of the following situations, you will be invited to learn in the academy. 
+But they'll ask for you to be on lvl200 before really joining in.
+There you'll learn about the professions and how to properly level up.
+
+
+Main Quest (1~200)
+Save the Princess.
+You are a simple peasant, living only with your father and working hard everyday... You want something more, something better.
+When you hear that the princess has been kidnapped, you see a chance of improvement. You could save the princess and become a knight,
+that way you can give your father better days without working so much.
+You don't know what to do exactly, but you want to try... take your luck shot and do your best!
+
+----
+You can go on the journey without any help, just your bare hands, and try your best to avoid danger while looking for the princess...
+Or you can look for your father and find out he was a knight for the kingdom and is hidding because he don't want this life anymore. But is willing
+to let you have his equips.
+Or you can craft your way through many weapons, using your tools to gather resources for the crafting. Start off with an axe you found in your backyard
+create your first pickaxe and start mining to create better weapons.
+----
+
+Crafting (before professions):
+you only have your luck. Don't have any limitation when it come to create simple weapons.
+when you found an rare ore or better, you can create rare weapons, but it only means you deal more damage
+in order to better use the ores, you need to reach lvl 200 and start the second quest.
+You can be a famous and prestigious blacksmith, but you won't do much more than work in small villages or for the kingdom.
+If you choose to keep going, you can become something more and be even more famous! 
+
+weapons possible:
+swords
+bows and arrows
+daggers
+
+ores: 
++1 dmg for each enchantment 
+basic, commom, uncommon, rare, exquisite, unique (+1,+2,+3,+4, +5, +6)
+color diferent for each enchantment.
+
+probability of failure:
+10% + 10% for each enchantment 
+(20%, 30%, 40%, 50%, 60%, 70%)
+
+quantity to craft:
+5 woods + 10 basic or common ores
+5 planks (refined wood) + 10 uncommon ore
+10 planks (refined wood) + 10 rare ore
+5 refined planks (planks reprocess) + 5 exquisite ore
+5 perfect planks (1% chance when reprocess planks) + 5 unique ore
+
+bows use only woods, arrow use half wood and ore
+daggers are 3/4 of wood and ore
+
+weapons have the ore properties (common, uncommon, rare, exquisite, unique)
+
+armors works similar 
+you can create plate or leather armors
+when creating leather, you need to get leather from killing mobs.
+
+head - 4 ore or leather
+chest - 8 ore or leather
+legs - 2 ore or leather
+arms - 2 ore or leather
+
+armors have the ore or leather properties
+
+----
+
+
+
+Second Quest 201~500 
+Made of various "side quests", you don't have a main goal besides developing further and become known everywhere.
+You can Join the army, created your own territory, create your own academy...
+But beware of limitations you may encounter if you challenge the already dominante kingdom and academy.
+
+Third Quest 501 ~ 1000
+Climb your way to glory. become the best in your profession! Your only mission is to grow your reputation and dominate a city or build your own!
+Craft, gather, train people to work for you... You choose the way you'll do it!
+

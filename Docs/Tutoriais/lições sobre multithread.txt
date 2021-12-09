@@ -1,0 +1,14 @@
+https://www.tutorialspoint.com/python/python_multithreading.htm
+
+https://www.daniweb.com/programming/software-development/threads/82143/time-sleep
+
+https://stackoverflow.com/questions/61233053/time-sleep-crashes-program-when-using-while-loop-in-pyqt
+
+-------------
+https://realpython.com/intro-to-python-threading/#what-is-a-thread
+-------------
+
+
+------------------------------------------------------------
+https://coderedirect.com/questions/114381/how-to-run-multiple-while-loops-at-a-time-in-python
+------------------------------------------------------------

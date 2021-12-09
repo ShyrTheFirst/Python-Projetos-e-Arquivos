@@ -1,0 +1,18 @@
+generate a unique user ID (randomize? dunno)
+
+generate input hash (wallet infos from where it is coming)
+generate output hash (wallet infos to where it is going)
+amount in transaction
+timestamp (UNIX)
+
+|
+|
+|
+V
+this is used to generate the hash for this transaction.
+
+ID + input + output + amount + timestamp
+
+something like 
+
+34sdf2323x12312 + 123das987z7d98a + 12312j3h12j32d + 1 + 220519941405300

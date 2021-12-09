@@ -1,0 +1,32 @@
+enemy -
+name (skeleton, dragon,cobold...)
+LVL = (initial = 1)
+HP
+FORÇA
+
+DefineName
+DefineLVL
+DefineHP
+DefineFORÇA
+Poder(STR*5/HP)
+Defesa(HP*2/10)
+LVLUP(+1stat each lvl, +2 each 5 levels)
+Morte(death animation)
+
+Player -
+name 
+LVL = (initial = 1)
+(Mage,Warrior,Hunter)
+HP
+FORÇA
+
+DefineName
+DefineLVL
+DefineHP
+DefineFORÇA
+Poder(STR*5/HP)
+Defesa(HP*2/10)
+Dano(Poder - Target.Defesa)
+LVLUP(+1stat each lvl, +2 each 5 levels)
+Morte(death animation)
+

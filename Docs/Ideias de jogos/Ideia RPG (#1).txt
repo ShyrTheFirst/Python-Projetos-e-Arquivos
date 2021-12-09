@@ -1,0 +1,176 @@
+Realm concept 
+bronze realm to diamond realm
+realm of Champions (1-9)
+realm of legends (only 1 level)
+those realms are human-reachable realms, training normally you can get to realm of legends and became a legend among your village. 
+In order to further progress, you need special itens that unlock your power, you can get those itens through various ways, but none of them are 100% chance.
+The following is the level/realm table
+level ----- realm
+1 - 10 ----- Bronze
+11 - 20 ---- Silver
+21 - 30 ---- Gold
+31 - 40 ---- Platinum
+41 - 50 ---- Diamond
+51 - 60 --- Champion 1
+61 - 70 --- Champion 2
+71 - 80 --- Champion 3
+81 - 90 --- Champion 4
+91 - 100 -- Champion 5
+101 - 110 - Champion 6
+111 - 120 - Champion 7
+121 - 130 - Champion 8
+131 - 150 - Champion 9
+151 - 200 - Legend
+
+200 is te cap, can only go further with special item from this point. Following the lvl 200 you can only level up through your profession, killing mobs or players don't 
+grant you XP anymore.
+along with the next realms you can choose professions to follow and develop. You can became a master in some profession or learn a little of everything. 
+The realms you get after 200 are:
+201 - 300 - Master realm 1
+301 - 400 - Master realm 2
+401 - 500 - Master realm 3
+501 - 600 - Sage realm 1
+601 - 700 - Sage realm 2
+701 - 800 - Sage realm 3
+801 - 900 - Soul Ascetic realm 1
+901 - 999 - Soul Ascetic realm 2
+1000 - Dean of Academy
+
+level 1000 is only reachable after defeating the Dean from (city name*work in progress*) Academy in a duel, this way you can choose between became the new Dean or just 
+create your own sect.
+from lvl 500 to 999, you can ask the masters from the academy in a Duel, in order to get their position.
+
+with the Dean title 
+
+Profession system 
+You have the following professions to choose:
+Melee Combat
+Swordmanship
+Magic
+Archery
+Refinery
+Forge
+Pastoral (maybe new name?)
+Cook
+
+each one will have it's unique set of habilities. For understanding porpouse:
+Melee - bare hand fights
+Swordmanship - Sword fights
+Magic - Skills fight
+Archery - Bow and arrow fights
+Refinery - Creation of potions and pellets through refining resources, creation of gems for various uses
+Forge - Creation of anything through drawnings. More often associate to forging weapons
+Pastoral - Healing and boosting others
+Cook - Prepare foods
+
+*****
+Att
+Inner Strenght (Magic att)
+Outer Strenght (Force att)
+
+Knowledge (base int)
+Wisdow (aplied int)
+
+Inate ability 
+Learnt ability
+*****
+
+******
+Each class will need some attributes to be in certain levels before you can have that class. Also some classes will refuse you if you have a lot of some attribute
+
+Abilities are ways to show your advance in yot chosen class. For each level within a class you obtaoin, you get 1 learnt ability point.
+The masteries and advanced skills use the following table:
+1 - 99 - Apprentice
+100 - 249 - Initiate
+250 - 499 - Second Master
+500 - 699 - Master
+700 - 799 - Professor
+800 - 899 - Skill Crafter
+900 - 998 - Divine Apprentice
+999 - Deity
+
+*more info coming from my anotations*
+********
+
+Gems concept
+
+can be used for various crafting porpouses and even can make the forge better. Useful itens for everyone. *work in progress*
+
+Crafting talisman concept (Forge and refinery)
+Six categories - basic, common, middle, high, rare and perfect
+Three types - Protection (skills like golden armor, heal, fast movement), traps (skills like energy cage, sinking feet, prevent move) and offense (like firewall, 
+earthquake, whirlwind)
+
+--
+
+
+Um camponês, que treinava todo dia tentando algum dia alcançar reconhecimento suficiente para melhorar de vida, se vê diante da oportunidade da vida dele : a princesa foi 
+raptada e ninguém se atrevia a enfrentar O Lorde.
+Nisso ele inicia sua jornada de autoconhecimento e aperfeiçoamento para enfrentar todo o mal da terra. Ou só sair dando porrada em tudo que vê pela frente.
+A ideia do jogo é deixar que o player tenha a liberdade de explorar o mundo e resolver o problema da forma que ele achar melhor.
+Cada decisão, cada passo vai ter a sua consequência no final da história, até mesmo podendo ter consequências imediatas.
+
+ o player que decidir não evoluir ou que não encontrar a espada no começo, vai ter uma dificuldade maior de enfrentar os inimigos por não poder treinar no templo e ganhar 
+ habilidades provenientes dessa espada. Se um player tbm decidir por não seguir a linha "principal" da história, fugir das evoluções de classe e for direto pra ação, vai 
+ ter consequências no reconhecimento do personagem no final, sendo que um simples camponês salvando a princesa pode ser épico e será lembrado pelos bardos por toda a 
+ eternidade, mas jamais será um cavaleiro real ou ganhará qualquer título, tendo feito tudo em vão. 
+Já o player que decidir seguir a história mas não se atentar a certos eventos que acontecerão nas cidades em que visitar, poderá ver um final diferente acontecendo com o 
+reino, como por exemplo o player que passar pela cidade do deserto sem derrotar os magos conjuradores e impedir que eles causem a destruição da cidade, irá ver que no final 
+o reino foi quase todo dominado por esses monstros, mesmo salvando a princesa e derrotando O Lorde, o mal encontra outra forma de se organizar e continuar os ataques, 
+forçando você a lutar contra hordas de monstros ao lado de outros cavaleiros reais, podendo ou não culminar na destruição do reino, que tbm vai depender de um tipo de 
+mini game, derrotar os magos conjuradores num certo limite de tempo, enquanto enfrenta as suas hordas de monstros.
+Tô ainda planejando outras coisas que vão influenciar nas cidades da neve (templo) e cidade da floresta (inicial), na cidade do reino, onde o jogador vai para ter seu treino 
+final e encontrar o caminho para o reino do mal, também vão ter várias opções , podendo passar reto; treinar lá dentro se tiver a espada, se estiver evoluída ganha skills de 
+dano, se não ganha de defesa; evoluir para uma última classe se não tiver a espada, e só assim se alcança essa classe, também criando um final diferente onde você se torna o 
+guardião do reino, sendo chamado para resolver qualquer problema com criaturas malignas; podendo aprender mais sobre a arte da metalurgia , sendo essa uma condição independente
+de todo o resto, mas que também vai influenciar seu futuro, dependendo de como se sair nos mini games e da sorte (tô pensando num sistema de qualidade de arma baseada num 
+nível de metalurgia, altos níveis se alcança realizando várias criações.) Quanto mais você criar antes de chegar no reino, maiores chances de craftar um set poderoso que 
+impressionará o rei e lhe garantirá um título de ferreiro real, recebendo aposentos e a melhor qualidade de vida possível para a época, claro que isso dependerá do seu 
+final, se só salvou a princesa como camponês, irá ser lembrado como o Mestre Ferreiro mais importante, se evoluiu, irá ser o Ferreiro Guerreiro mais importante do reino, se 
+deixou os monstros dominarem o reino e conseguiu salva-lo , será só um ferreiro renomado, não sendo reconhecido pela bravura de ter salvo a todos pois você foi culpado por 
+permitir que os monstros se espalhassem. 
+Todos os finais vão ter várias condições.
+
+Fazer construção de itens 
+na igreja usar altar 
+no ferreiro usar fornalha (Path OF SWORD)
+no templo usar bancada (Path OF SORCERY)
+e no esconderijo usar mesa de trabalho (Path OF AGILITY)
+
+primeira Quest será na floresta onde o personagem decidirá o caminho 
+a segunda Quest será na neve onde o personagem evoluirá para segunda classe
+Espadachim se torna cavaleiro
+Ladino se torna mercenário
+Mago se torna bruxo
+A terceira Quest será no deserto onde o personagem evoluirá para terceira classe
+Cavaleiro se torna paladino
+Mercenário se torna dançarino das sombras
+Bruxo se torna warlock
+No reino o personagem terá uma quarta Quest que oferecerá um poder muito forte chamado de berzerker
+No posto avançado o personagem irá transcender para poder enfrentar o chefão
+Paladino se torna Grão mestre da espada
+Dançarino das sombras se torna mestre das sombras
+Warlock se torna senhor das magias
+Após transcender o personagem irá para a fase final onde destruirá todo o mal até o chefão
+Chefão terá 3 vidas a cada morte se torna mais forte mudando de forma
+Derrotar das três vidas acionar a cutscene
+Onde mostrar o que aconteceu com o reino
+Personagens só pode evoluir nos leveis certos
+
+Sistema de loot - mob derruba uma parte do corpo (cabeça, perna, pé, mão, gosma [poring], rabo ...) E esse item é trocado com um NPC na cidade que quer aniquilar esses mobs. 
+O npc pode ser um mercador que está irritado com mobs no seu caminho, um guarda real que está tendo problemas para enfrenta-los ou até mesmo um camponês que está sofrendo 
+com invasões. 
+As recompensas variam com a dificuldade e a quantidade de monstros mortos. Estabelecendo que as vendas ocorrem a cada 10 itens, ou seja : 10,20,30,40... No momento que o 
+jogador adquirir 500 itens de um mesmo mob, ele será totalmente aniquilado, com 250 ele se tornará raro e 100 irá diminuir um pouco a quantidade, para monstros mais fortes e 
+raros essa quantidade pode diminuir para 50/25/10.
+O Boss sempre irá derrubar um item que está usando, sendo possível matar um só uma vez. Muitos npcs vão desejar algo de um Boss, por vários motivos (depende do Boss e do 
+local. Mas podem ser para magia, arcanismo, necromancia, crafting...) Caso você não consiga o item que o npc desejava (pode ser até que consiga vários itens, não só um) 
+provavelmente o npc irá buscar alternativas e irá te pedir ingredientes para testar essas alternativas, concedendo recompensas por esses ingredientes até que alcance a 
+recompensa que receberia pelo item do Boss .
+
+Recompensas - variam de dinheiro, comida,itens e equipamentos, dependendo do npc e da sua profissão. Um camponês não irá te oferecer dinheiro, pois geralmente tem pouco, 
+portanto oferecerá comida ou algo da sua plantação. Já um mercador irá oferecer grandes quantias em dinheiro, ou irá te oferecer extremamente pouco, nunca se sabe se ele é 
+ganancioso ou sabe gerir no longo prazo seus ganhos.
+Um guarda tem acesso a equipamentos de alto nível, assim como um ferreiro também sabe fazer um, então ambos irão oferecer equipamentos para você. Já um mago ou arcanista irá 
+oferecer poções e itens mágicos por ser o que estão acostumados a fazer.
+

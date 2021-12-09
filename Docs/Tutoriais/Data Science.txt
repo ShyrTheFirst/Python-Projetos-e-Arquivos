@@ -1,0 +1,43 @@
+https://pandas.pydata.org/getting_started.html
+
+https://jupyterlab.readthedocs.io/en/stable/user/interface.html
+
+https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html
+
+https://flask.palletsprojects.com/en/2.0.x/
+
+https://towardsdatascience.com/5-ways-to-gain-real-world-data-science-experience-674f0c80e836
+
+https://matplotlib.org/stable/plot_types/basic/plot.html (plotar os graficos!!)
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+plt.style.use('_mpl-gallery')
+
+# make data
+y = [1,2,3,4,5]#colocar numeros aqui (y=conf,rec,gripetotal,mortes)
+x = ['a','b','v','d','s']#colocar data aqui(x = sempre data)
+
+# plot
+fig, ax = plt.subplots()
+fig, bx = plt.subplots()
+
+ax.plot(x, y, linewidth=1.0)
+bx.plot(x,y,linewidth=1.0)
+
+ax.set(xlim=(0, 8), xticks=[1,2,3,4,5],
+       ylim=(0, 8))
+bx.set(xlim=(0, 8), xticks=[1,2,3,4,5],
+       ylim=(0, 8))
+
+plt.show()
+
+
+https://towardsdatascience.com/deploy-and-host-your-data-science-project-13b2187b9ba
+
+https://pythonexamples.org/python-pillow-create-image/
+
+
+voluntariado : 
+https://www.solveforgood.org/proj/

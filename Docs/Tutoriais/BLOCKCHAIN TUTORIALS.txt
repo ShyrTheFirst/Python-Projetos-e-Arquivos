@@ -1,0 +1,4 @@
+the place where it comes from https://gitcoin.co/issue/casper-network/gitcoin-hackathon/29/100026611
+https://docs.casperlabs.io/en/latest/dapp-dev-guide/setup-of-rust-contract-sdk.html
+https://gitcoin.co/issue/0xHabitat/hackathon/3/100026487
+from habitat hackathon https://docs.0xhabitat.org/  https://0xhabitat.org/app/#habitat-communities
