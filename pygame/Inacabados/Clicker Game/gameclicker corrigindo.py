@@ -89,7 +89,7 @@ class Personagem():
        pygame.draw.rect(tela,(0,0,0),limpar_rect)
 
    def mostrar_dano(self):   
-       self.mostrardanovar = "Seu dano 3: %s" %(self.dano_total)
+       self.mostrardanovar = "Seu dano é: %s" %(self.dano_total)
        self.mostrardano = fonte.render(self.mostrardanovar, 1, (255,255,255))
        tela.blit(self.mostrardano, (30,85))
        
