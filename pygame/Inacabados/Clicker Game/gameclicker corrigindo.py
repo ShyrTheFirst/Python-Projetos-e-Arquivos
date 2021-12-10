@@ -32,7 +32,7 @@ class Item():
     def __init__(self):
         self.poder = 0
         self.comprar_reta = pygame.Rect(posx+250,posy+150,50,20)
-        self.melhorar_reta = pygame.Rect(posx+250,posy+250,50,20)
+        self.melhorar_reta = pygame.Rect(posx+250,posy+120,50,20)
         
     def melhorar_item(self,player):
         self.poder += 1
@@ -53,7 +53,6 @@ class Item():
         self.color = cor_ativa
         self.reta_botao = self.comprar_reta
         pygame.draw.rect(tela,self.color, self.reta_botao)
-        pygame.display.flip()
 
     def comprando(self,player):
         self.color = cor_passiva
@@ -66,13 +65,13 @@ class Item():
         self.color = cor_ativa
         self.reta_botao_melhorar = self.melhorar_reta
         pygame.draw.rect(tela,self.color, self.reta_botao_melhorar)
-        pygame.display.flip()
 
     def melhorando(self,player):
         self.color = cor_passiva
         pygame.draw.rect(tela,self.color, self.reta_botao_melhorar)
         pygame.display.flip()
         pygame.time.delay(200)
+        self.melhorar_item(player)
         self.atualizar_item(player)
 
 ##Fim Classe ITEM##
