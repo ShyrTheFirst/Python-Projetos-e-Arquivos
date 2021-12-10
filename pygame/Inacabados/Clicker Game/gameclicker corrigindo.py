@@ -88,6 +88,16 @@ class Personagem():
        limpar_rect = pygame.Rect(30,55,sizex,sizey)
        pygame.draw.rect(tela,(0,0,0),limpar_rect)
 
+   def mostrar_dano(self):   
+       self.mostrardanovar = "Seu dano 3: %s" %(self.dano_total)
+       self.mostrardano = fonte.render(self.mostrardanovar, 1, (255,255,255))
+       tela.blit(self.mostrardano, (30,85))
+       
+   def limpar_dano(self):        
+       sizex_dano,sizey_dano = pygame.font.Font.size(fonte,self.mostrardanovar)
+       limpar_dano_rect = pygame.Rect(30,85,sizex_dano,sizey_dano)
+       pygame.draw.rect(tela,(0,0,0),limpar_dano_rect)
+
    def name(self, name):
       name = str(name)
       mostrar_nome = fonte.render(name, 1, (255,255,255))
