@@ -32,6 +32,7 @@ class Item():
     def __init__(self):
         self.poder = 0
         self.comprar_reta = pygame.Rect(posx+250,posy+150,50,20)
+        self.melhorar_reta = pygame.Rect(posx+250,posy+250,50,20)
         
     def melhorar_item(self,player):
         self.poder += 1
@@ -224,6 +225,7 @@ while display_class == True:
         chao.desenhar()
         monstro.vida()
         item.botao_comprar()
+        item.botao_melhorar()
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 pygame.quit()
@@ -232,6 +234,7 @@ while display_class == True:
             posicao_mouse = pygame.mouse.get_pos()
             RETA = monstro.rect
             botao_comprar = item.comprar_reta
+            botao_melhorar = item.melhorar_reta
             if pygame.Rect.collidepoint(RETA,posicao_mouse):
                 monstro.clicou(char)
                 char.limpar_level()
@@ -239,3 +242,5 @@ while display_class == True:
                 pygame.display.flip()
             if pygame.Rect.collidepoint(botao_comprar,posicao_mouse):
                 item.comprando(char)
+            if pygame.Rect.collidepoint(botao_melhorar,posicao_mouse):
+                item.melhorando(char)
