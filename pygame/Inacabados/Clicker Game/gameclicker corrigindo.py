@@ -61,6 +61,19 @@ class Item():
         pygame.time.delay(200)
         self.gerar_item(player)
 
+    def botao_melhorar(self):
+        self.color = cor_ativa
+        self.reta_botao_melhorar = self.melhorar_reta
+        pygame.draw.rect(tela,self.color, self.reta_botao_melhorar)
+        pygame.display.flip()
+
+    def melhorando(self,player):
+        self.color = cor_passiva
+        pygame.draw.rect(tela,self.color, self.reta_botao_melhorar)
+        pygame.display.flip()
+        pygame.time.delay(200)
+        self.atualizar_item(player)
+
 ##Fim Classe ITEM##
 
 ##Classe PERSONAGEM##
