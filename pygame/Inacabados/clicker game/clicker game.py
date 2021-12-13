@@ -85,10 +85,37 @@ monstro = Monstro(v.game_level)
 botao_melhorar = Botao(v.botao_posx,0,1.5,botao_melhorar,botao_melhorar_press)
 botao_aleatorio = Botao(v.botao_posx,50,1.5,botao_aleatorio,botao_aleatorio_press)
 
+def blitar_tudo():
+   char.mostrar_level()
+   char.mostrar_dano()
+   char.name(v.input_usuario)
+   monstro.limpar_monstro()
+   monstro.desenhar_monstro()        
+   char.limpar_char()
+   char.desenhar_char()
+   item_arma.limpar_item()
+   item_arma.desenhar_item(tela)        
+   chao.desenhar()
+   monstro.vida()
+   botao_melhorar.desenhar(tela)
+   botao_aleatorio.desenhar(tela)
+   pygame.display.update()
+
 
 
 ###INICIO DO JOGO###
 while v.display_class == True:
+    #verificar nivel do jogo#
+    if v.game_level == 10 and v.escolha_classe == False:
+       
+       while v.escolha_classe == False:
+          ####criar botao para escolher a classe####
+          v.escolha_classe = True
+
+
+
+
+          
     #CRIAR MOB#
     if v.novo_mob:
         sair_do_jogo()

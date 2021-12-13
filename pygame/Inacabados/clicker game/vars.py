@@ -17,6 +17,7 @@ novo_mob = False
 game_level = 1
 nivel_char = 1
 input_usuario = " "
+escolha_classe = False
 guerreiro = False
 mago = False
 arqueiro = False
