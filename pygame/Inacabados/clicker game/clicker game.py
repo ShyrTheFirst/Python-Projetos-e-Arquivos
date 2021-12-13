@@ -28,6 +28,12 @@ botao_aleatorio = pygame.image.load(r'imagens\aleatorio.png')
 botao_aleatorio_press = pygame.image.load(r'imagens\aleatorio_press.png')
 botao_melhorar = pygame.image.load(r'imagens\melhorar.png')
 botao_melhorar_press = pygame.image.load(r'imagens\melhorar_press.png')
+botao_guerreiro_sele = pygame.image.load(r'imagens\guerreiro.png')
+botao_mago_sele = pygame.image.load(r'imagens\mago.png')
+botao_arqueiro_sele = pygame.image.load(r'imagens\arqueiro.png')
+botao_guerreiro_press = pygame.image.load(r'imagens\guerreiro_press.png')
+botao_mago_press = pygame.image.load(r'imagens\mago_press.png')
+botao_arqueiro_press = pygame.image.load(r'imagens\arqueiro_press.png')
 
 
 ##fim da inicialização do pygame##
@@ -109,6 +115,15 @@ while v.display_class == True:
     if v.game_level == 10 and v.escolha_classe == False:
        
        while v.escolha_classe == False:
+          tela.fill((0,0,0))
+          botao_guerreiro = Botao(300,300,1.5,botao_guerreiro_sele,botao_guerreiro_press)
+          botao_mago = Botao(300,300,1.5,botao_mago_sele,botao_mago_press)
+          botao_arqueiro = Botao(300,300,1.5,botao_arqueiro_sele,botao_arqueiro_press)
+          botao_guerreiro.desenhar(tela)
+          botao_mago.desenhar(tela)
+          botao_arqueiro.desenhar(tela)
+          pygame.display.update()
+          pygame.time.delay(2000)
           ####criar botao para escolher a classe####
           v.escolha_classe = True
 

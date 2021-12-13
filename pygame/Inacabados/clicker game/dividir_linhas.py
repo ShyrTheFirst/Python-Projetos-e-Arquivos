@@ -68,5 +68,3 @@ def dividir_linhas(frase):
 
     frase_final = frase_junta
     return frase_final
-
-

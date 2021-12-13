@@ -236,4 +236,3 @@ class chao():
         pygame.draw.rect(tela,self.color,self.rect)
 
 ##Fim Classe CHAO##
-
