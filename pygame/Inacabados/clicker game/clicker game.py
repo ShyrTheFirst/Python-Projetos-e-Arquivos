@@ -83,7 +83,7 @@ char.mostrar_dano()
 char.name(v.input_usuario)
 monstro = Monstro(v.game_level)
 botao_melhorar = Botao(v.botao_posx,0,1.5,botao_melhorar,botao_melhorar_press)
-botao_aleatorio = Botao(v.botao_posx,35,1.5,botao_aleatorio,botao_aleatorio_press)
+botao_aleatorio = Botao(v.botao_posx,50,1.5,botao_aleatorio,botao_aleatorio_press)
 
 
 
