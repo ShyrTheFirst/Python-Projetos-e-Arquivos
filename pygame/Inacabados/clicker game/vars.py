@@ -21,6 +21,7 @@ guerreiro = False
 mago = False
 arqueiro = False
 aprendiz = True
+botao_posx = 600
 
 def sair_do_jogo():
     for event in pygame.event.get():

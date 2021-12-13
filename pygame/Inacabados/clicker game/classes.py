@@ -47,7 +47,7 @@ class Item():
     def melhorar_item(self,player):
         self.poder += 1
         self.bonus += 1
-        player.aumentar_dano()        
+        player.aumentar_dano()      
 
     def gerar_item(self,player,nivel,tela):
         if v.guerreiro:
@@ -86,7 +86,7 @@ class Item():
         
 
     def limpar_item(self):
-       reta_limpar_item = pygame.Rect(675,200,100,100)
+       reta_limpar_item = pygame.Rect(550,200,400,200)
        pygame.draw.rect(tela,(0,0,0),reta_limpar_item)
 
     def item_aleatorio(self,player,tela):
@@ -116,6 +116,7 @@ class Personagem():
    def __init__(self,item,classe='aprendiz'):
        self.classe = classe
        self.level = v.game_level
+       self.item = item
        self.dano_normal = 1
        self.dano_arma = 0 + item.poder
        self.dano_total = self.dano_normal+self.dano_arma
@@ -126,7 +127,7 @@ class Personagem():
        self.dano_normal += 1
 
    def aumentar_dano(self):
-       self.dano_arma = 0 + item.poder
+       self.dano_arma = 0 + self.item.poder
        self.dano_total = self.dano_normal + self.dano_arma
        
    def mostrar_level(self):   

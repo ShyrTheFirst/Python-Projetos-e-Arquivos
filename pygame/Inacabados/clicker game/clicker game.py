@@ -19,6 +19,16 @@ tela.fill((0,0,0))
 font_default = pygame.font.get_default_font()
 fonte = pygame.font.Font(r'fontes\alagard.ttf',25)
 
+#botoes#
+botao_iniciar = pygame.image.load(r'imagens\iniciar.png')
+botao_iniciar_press = pygame.image.load(r'imagens\iniciar_press.png')
+botao_sair = pygame.image.load(r'imagens\sair.png')
+botao_sair_press = pygame.image.load(r'imagens\sair_press.png')
+botao_aleatorio = pygame.image.load(r'imagens\aleatorio.png')
+botao_aleatorio_press = pygame.image.load(r'imagens\aleatorio_press.png')
+botao_melhorar = pygame.image.load(r'imagens\melhorar.png')
+botao_melhorar_press = pygame.image.load(r'imagens\melhorar_press.png')
+
 
 ##fim da inicialização do pygame##
 
@@ -65,13 +75,15 @@ pygame.display.update()
 v.input_usuario = v.input_usuario[:-1]
 
 ###DEFININDO AS CLASSES###
-item = Item()
-char = Personagem(item)
+item_arma = Item()
+char = Personagem(item_arma)
 chao = chao()
 char.mostrar_level()
 char.mostrar_dano()
 char.name(v.input_usuario)
 monstro = Monstro(v.game_level)
+botao_melhorar = Botao(v.botao_posx,400,botao_melhorar,botao_melhorar_press)
+botao_aleatorio = Botao(v.botao_posx,430,botao_aleatorio,botao_aleatorio_press)
 
 
 
@@ -87,10 +99,12 @@ while v.display_class == True:
         monstro.desenhar_monstro()        
         char.limpar_char()
         char.desenhar_char()
-        item.limpar_item()
-        item.desenhar_item(tela)        
+        item_arma.limpar_item()
+        item_arma.desenhar_item(tela)        
         chao.desenhar()
         monstro.vida()
+        botao_melhorar.desenhar(tela)
+        botao_aleatorio.desenhar(tela)
         #detectar clique do mouse#
         for event in pygame.event.get():
             sair_do_jogo()
@@ -98,6 +112,8 @@ while v.display_class == True:
                 #definir retas para usar collidepoint#
                 posicao_mouse = pygame.mouse.get_pos()
                 mob_reta = monstro.reta_monstro
+                melhorar_reta = botao_melhorar.rect
+                aleatorio_reta = botao_aleatorio.rect
                 
                 #collidepoint para o monstro#
                 if pygame.Rect.collidepoint(mob_reta,posicao_mouse):
@@ -107,5 +123,24 @@ while v.display_class == True:
                     char.limpar_dano()
                     char.mostrar_dano()
                     pygame.display.flip()
+                if pygame.Rect.collidepoint(melhorar_reta,posicao_mouse):
+                    botao_melhorar.desenhar_clique(tela)
+                    item_arma.melhorar_item(char)
+                    item_arma.limpar_item()
+                    item_arma.desenhar_item(tela)                    
+                    char.limpar_dano()
+                    char.mostrar_dano()
+                    pygame.display.flip()
+                    pygame.time.delay(200)
+                    
+                if pygame.Rect.collidepoint(aleatorio_reta,posicao_mouse):
+                    botao_aleatorio.desenhar_clique(tela)
+                    item_arma.item_aleatorio(char,tela)
+                    item_arma.limpar_item()
+                    item_arma.desenhar_item(tela)                    
+                    char.limpar_dano()
+                    char.mostrar_dano()
+                    pygame.display.flip()
+                    pygame.time.delay(200)
                     
         pygame.display.flip()
