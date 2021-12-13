@@ -1,26 +1,23 @@
-import pygame, sys
+import pygame, sys, random
+from escrita_por_letra import escrever_por_letra as escrever
+from classes import Botao
+from vars import sair_do_jogo
+import vars as v
 
+
+##inicializando pygame##
+
+#pygame#
+relogio = pygame.time.Clock()
 pygame.init()
+pygame.font.init()
+pygame.display.set_caption('GameClickerDev')
+tela = pygame.display.set_mode((v.largura,v.altura))
+tela.fill((0,0,0))
 
-largura = 800
-altura = 600
-cor_ativa = (0,0,255)
-cor_passiva = (255,0,0)
-cor = cor_passiva
-cor_chao = (0,66,37)
-posx = 350
-posy = 350
-ativo = False
-game_on = True
-display_class = False
-novo_mob = False
-game_level = 1
-input_usuario = " "
+#fontes#
+font_default = pygame.font.get_default_font()
+fonte = pygame.font.Font(r'fontes\alagard.ttf',25)
 
-def sair_do_jogo():
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            pygame.quit()
-            sys.exit()
-            
-
+#botoes#
+botao_melhorar = pygame.image.load(r'imagens\b.png')
