@@ -15,12 +15,7 @@ game_on = True
 display_class = False
 novo_mob = False
 game_level = 1
-nivel_char = 1
 input_usuario = " "
-guerreiro = False
-mago = False
-arqueiro = False
-aprendiz = True
 
 def sair_do_jogo():
     for event in pygame.event.get():
