@@ -82,8 +82,8 @@ char.mostrar_level()
 char.mostrar_dano()
 char.name(v.input_usuario)
 monstro = Monstro(v.game_level)
-botao_melhorar = Botao(v.botao_posx,400,botao_melhorar,botao_melhorar_press)
-botao_aleatorio = Botao(v.botao_posx,430,botao_aleatorio,botao_aleatorio_press)
+botao_melhorar = Botao(v.botao_posx,0,1.5,botao_melhorar,botao_melhorar_press)
+botao_aleatorio = Botao(v.botao_posx,35,1.5,botao_aleatorio,botao_aleatorio_press)
 
 
 
@@ -91,10 +91,12 @@ botao_aleatorio = Botao(v.botao_posx,430,botao_aleatorio,botao_aleatorio_press)
 while v.display_class == True:
     #CRIAR MOB#
     if v.novo_mob:
+        sair_do_jogo()
         monstro = Monstro(v.game_level)
         v.novo_mob = False
     else:
         #blitar tela do jogo#
+        sair_do_jogo()
         monstro.limpar_monstro()
         monstro.desenhar_monstro()        
         char.limpar_char()

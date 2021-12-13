@@ -19,12 +19,18 @@ fonte = pygame.font.Font(r'fontes\alagard.ttf',25)
 
 ##Classe BOTAO##
 class Botao():
-    def __init__(self,x,y,imagem, imagem_press, imagem_emcima=None):
+    def __init__(self,x,y,transformar,imagem, imagem_press, imagem_emcima=None):
         self.imagem = imagem
         self.imagem_pressionado = imagem_press
         self.imagem_emcima = imagem_emcima
+        self.tamanhox,self.tamanhoy = self.imagem.get_rect().size
+        self.imagem = pygame.transform.scale(self.imagem,(self.tamanhox*transformar,self.tamanhoy*transformar))
+        self.imagem_pressionado = pygame.transform.scale(self.imagem_pressionado,(self.tamanhox*transformar,self.tamanhoy*transformar))
+        if self.imagem_emcima != None:
+            self.imagem_emcima = pygame.transform.scale(self.imagem_emcima,(self.tamanhox*transformar,self.tamanhoy*transformar))
         self.rect = self.imagem.get_rect()
         self.rect.topleft = (x,y)
+       
 
     def desenhar(self,tela):
         tela.blit(self.imagem,(self.rect.x,self.rect.y))
